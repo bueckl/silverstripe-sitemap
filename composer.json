@@ -13,8 +13,6 @@
 	],
 	"support": {
 		"issues": "https://github.com/axllent/silverstripe-sitemap/issues"
-	},
-	"require": {
-		"silverstripe/framework": ">=0.3"
 	}
+	
 }
