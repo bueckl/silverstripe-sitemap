@@ -5,6 +5,7 @@
 	"homepage": "https://github.com/axllent/silverstripe-sitemap",
 	"keywords": ["silverstripe", "sitemap", "google", "seo"],
 	"license": "The MIT License (MIT)",
+	"minimum-stability": "dev",
 	"authors": [
 		{
 			"name": "Ralph Slooten",
