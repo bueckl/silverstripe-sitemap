@@ -218,7 +218,7 @@ class Sitemap
             $item->ChangeFrequency = self::get_frequency_for_class($className);
             $item->GooglePriority = self::get_priority_for_class($className);
             if ($item->hasMethod('SitemapAbsoluteURL')) {
-                $item->SitemapAbsoluteURL = $SitemapAbsoluteURL->SitemapAbsoluteURL();
+                $item->SitemapAbsoluteURL = $item->SitemapAbsoluteURL();
                 $output->push($item);
             } elseif ($item->hasMethod('Link')) {
                 $item->SitemapAbsoluteURL = Director::absoluteURL($item->Link());
